@@ -1,0 +1,78 @@
+/* src/components/Cart.module.css */
+.cartContainer {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cartList {
+  list-style: none;
+  padding: 0;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.cartItemImage {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.cartItemDetails {
+  flex: 1;
+  text-align: left;
+}
+
+.cartItemDetails input {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.cartItemDetails button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cartItemDetails button:hover {
+  background-color: #c82333;
+}
+
+.orderButton {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.orderButton:hover {
+  background-color: #218838;
+}
+
+.loginPrompt {
+  margin-top: 20px;
+}
+
+.loginPrompt a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.loginPrompt a:hover {
+  text-decoration: underline;
+}
